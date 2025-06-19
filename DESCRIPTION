@@ -1,0 +1,17 @@
+Package: ScImTH
+Title: ScImTH: an entropy-based algorithm for quantifying Immune Tumor Heterogeneity in cancer ecosystems
+Version: 1.1.0
+Authors@R: c(person(given = "Qiqi", family = "Lu", role = c("aut", "cre"), email = "qiqi_lu@stu.cpu.edu.cn"),
+              person(given = "Xiaosheng", family = "Wang", role = c("aut"), email = "xiaosheng.wang@cpu.edu.cn"))
+Maintainer: Qiqi Lu <qiqi.lu@stu.cpu.edu.cn>
+Description: Quantifying Immune Tumor Heterogeneity in cancer ecosystems based on entropy.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    e1071,
+    parallel,
+    preprocessCore,
+    stats,
+    utils
